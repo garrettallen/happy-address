@@ -1,0 +1,21 @@
+{
+  "name": "happy-address",
+  "version": "0.0.1",
+  "description": "Make address forms happy",
+  "engines": {
+    "node": "6.3.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "geocoder": "^0.2.2"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT"
+}

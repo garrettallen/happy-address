@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Happy Address</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-theme.min.css">
+    <link rel="stylesheet" href="happy.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <h2 class="form-signin-heading">Happy Address</h2>
+          <div id="loading"><span class="label label-info">Finding address...</span></div>
+          <form class="form-signin">
+            <div>
+              <input type="text" id="street" placeholder="123 Fake St" required autofocus class="form-control input-lg" >
+              <input type="text" id="location" placeholder="Portland, OR 91919" required class="form-control input-lg" >
+            </div>
+            <div class="btn-group" role="group" id="submit-buttons">
+              <button type="button" class="btn btn-default disabled">Save as:</button>
+              <button type="button" class="btn btn-primary" value="home">Home</button>
+              <button type="button" class="btn btn-primary" value="business">Business</button>
+              <button type="button" class="btn btn-primary" value="other">Other</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="lodash.core.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="happy.js"></script>
+  </body>
+</html>

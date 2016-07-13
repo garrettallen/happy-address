@@ -1,0 +1,13 @@
+#street, #location {
+    border: none !important;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.btn-group {
+    margin-top: 1.5em;
+}
+
+body {
+    margin-top: 3em;
+}
